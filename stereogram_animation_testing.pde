@@ -94,11 +94,11 @@ void setup()
 
   output = createWriter("dmap.txt");
 
-  String s = "D:\\SoloWork\\EricLennartson\\2024\\AnUntitledAlbumFeaturingEricDavidLennartson\\ProcessingSketch";
-  String s2 = "D:\\SoloWork\\EricLennartson\\2024\\AnUntitledAlbumFeaturingEricDavidLennartson\\Images";
-  photo = loadImage(s+"\\magic_eye_color_strip.png");
+  //String s = "D:\\SoloWork\\EricLennartson\\2024\\AnUntitledAlbumFeaturingEricDavidLennartson\\ProcessingSketch";
+  //String s2 = "D:\\SoloWork\\EricLennartson\\2024\\AnUntitledAlbumFeaturingEricDavidLennartson\\Images";
+  photo = loadImage("./magic_eye_color_strip.png");
   photo.resize(width, height);
-  bg = loadImage(s2+"\\bb_top_edited.png");
+  bg = loadImage("./bb_top_edited.png");
   bg.resize(width, height);
 
   for (int i=0; i<depth.length; ++i)
